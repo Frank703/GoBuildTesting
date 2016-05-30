@@ -4,7 +4,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SeleniumTest {
 
@@ -12,7 +12,8 @@ public class SeleniumTest {
 
 	@Before
 	public void setUp() {
-		driver = new InternetExplorerDriver();
+		//driver = new InternetExplorerDriver();
+		driver = new FirefoxDriver();
 	}
 
 	@After
